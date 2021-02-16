@@ -137,7 +137,7 @@
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>
-    <PostBuildEvent>copy "$(TargetPath)" C:\Dev\ClearSCADA\Binaries\X64\Release\
-copy "$(TargetDir)\AddIn.dll" C:\Dev\ClearSCADA\Binaries\X64\Release\</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetPath)" "C:\Program Files\Schneider Electric\ClearSCADA"
+copy "$(TargetDir)\AddIn.dll" "C:\Program Files\Schneider Electric\ClearSCADA"</PostBuildEvent>
   </PropertyGroup>
 </Project>
