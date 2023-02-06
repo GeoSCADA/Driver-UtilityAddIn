@@ -17,7 +17,7 @@
     </UpgradeBackupLocation>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <StartupObject>DriverAddIn.DriverAddIn</StartupObject>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -72,9 +72,9 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ControlMicrosystems.ClearSCADA.DDK, Version=6.84.7655.1, Culture=neutral, PublicKeyToken=9e16b9dd55e2cd53, processorArchitecture=AMD64">
+    <Reference Include="ControlMicrosystems.ClearSCADA.DDK, Version=6.85.7779.3, Culture=neutral, PublicKeyToken=9e16b9dd55e2cd53, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>c:\Program Files\Schneider Electric\ClearSCADA\ControlMicrosystems.ClearSCADA.DDK.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Schneider Electric\ClearSCADA\ControlMicrosystems.ClearSCADA.DDK.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
